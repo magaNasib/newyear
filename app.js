@@ -6,7 +6,7 @@
 
       function count() {
         let myTime = new Date().getTime();
-        let eventDate = new Date(2024, 0, 00).getTime();
+        let eventDate = new (2023, 12, 31).getTime();
         let countDate = eventDate - myTime;
         let seconds = Math.floor(countDate / 1000);
         let minutes = Math.floor(seconds / 60);
